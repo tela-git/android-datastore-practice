@@ -78,6 +78,7 @@ dependencies {
     //noinspection GradleDependency
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:${rootProject.extra["lifecycle_version"]}")
     implementation("androidx.datastore:datastore-preferences")
+    implementation("androidx.datastore:datastore-core-android:1.1.1")
 
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("androidx.compose.ui:ui-tooling")
