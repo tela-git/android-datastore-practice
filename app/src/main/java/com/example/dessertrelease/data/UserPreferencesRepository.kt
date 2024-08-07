@@ -12,10 +12,10 @@ import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map
 
 
-class UsersPreferencesRepository(
+class UserPreferencesRepository(
     val dataStore: DataStore<Preferences>
 ) {
-    private companion object {
+    private companion object {P
         val IS_LINEAR_LAYOUT = booleanPreferencesKey("is_linear_layout")
         const val TAG = "UserPreferencesRepo"
     }
