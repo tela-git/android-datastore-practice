@@ -15,8 +15,8 @@ import kotlinx.coroutines.flow.map
 class UserPreferencesRepository(
     val dataStore: DataStore<Preferences>
 ) {
-    private companion object {P
-        val IS_LINEAR_LAYOUT = booleanPreferencesKey("is_linear_layout")
+    private companion object {
+        val IS_LINEAR_LAYOUT: Preferences.Key<Boolean> = booleanPreferencesKey("is_linear_layout")
         const val TAG = "UserPreferencesRepo"
     }
 
